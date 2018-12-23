@@ -4,8 +4,21 @@ export default class LinkedList {
     this.next = next
   }
 
+  // Time complexity: O(1)
   prepend(value) {
     return new LinkedList(value, this)
+  }
+
+  //Selects all elements except first `n` ones.
+  drop(n) {
+    let i = 0;
+    let curr = this
+    while (i < n) {
+      if (!curr) return null
+      curr = curr.next
+      i++
+    }
+    return curr
   }
 
   toArray() {

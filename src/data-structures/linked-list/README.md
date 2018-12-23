@@ -2,6 +2,6 @@
 
 * Reverse a linked list
   * [Using a stack](reverseStack.js)
-  * [Recursively]()
-  * [Using tail recursion in place]()
-  * [Using tail recursion non-mutating]()
+  * [Recursively](reverseRecursive.js)
+  * [Using tail recursion in place](reverseTailRecInPlace.js)
+  * [Using tail recursion non-mutating](reverseTailRec.js)
