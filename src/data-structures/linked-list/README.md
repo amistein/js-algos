@@ -1,4 +1,7 @@
 # Linked List
 
 * Reverse a linked list
-  * Recusive Approach
+  * [Using a stack](reverseStack.js)
+  * [Recursively]()
+  * [Using tail recursion in place]()
+  * [Using tail recursion non-mutating]()
