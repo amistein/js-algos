@@ -9,6 +9,11 @@ export default class LinkedList {
     return new LinkedList(value, this)
   }
 
+  size() {
+    if (!this.next) return 1
+    return 1 + this.next.size()
+  }
+
   //Selects all elements except first `n` ones.
   drop(n) {
     let i = 0;

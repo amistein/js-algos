@@ -13,3 +13,6 @@
   * [Floyd’s cycle-finding algorithm](detectLoopFloyd.js)
 * Merge two sorted linked lists
   * [Recursive approach](merge.js)
+* Find intersection point of two linked lists
+  * [Using a hash table](intersectionHash.js)
+  * [Using the difference of list sizes](intersection.js)
