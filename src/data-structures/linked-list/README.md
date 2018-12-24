@@ -5,3 +5,5 @@
   * [Recursively](reverseRecursive.js)
   * [Using tail recursion in place](reverseTailRecInPlace.js)
   * [Using tail recursion non-mutating](reverseTailRec.js)
+* Merge two sorted linked lists
+  * [Recursive approach](merge.js)
