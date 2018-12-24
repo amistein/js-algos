@@ -21,6 +21,15 @@ export default class LinkedList {
     return curr
   }
 
+  // Selects first `n` elements
+  // Mutates the linked list
+  take(n) {
+    if (n === 0) return null
+    if (!this.next) return this
+    this.next = this.next.take(n - 1)
+    return this
+  }
+
   toArray() {
     const result = []
     let curr = this
