@@ -1,4 +1,4 @@
-# JavaScript Algorithms and Data Structures
+# Common Algorithms and Data Structures in JavaScript
 
 ## Data Structures
 
