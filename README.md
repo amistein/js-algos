@@ -2,4 +2,4 @@
 
 ## Data Structures
 
-* [Linked List](src/data-structures/linked-list)
+* [Linked List](data-structures/linked-list)
