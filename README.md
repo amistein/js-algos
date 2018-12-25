@@ -3,3 +3,4 @@
 ## Data Structures
 
 * [Linked List](data-structures/linked-list)
+* [Binary Search Tree](data-structures/bst)
