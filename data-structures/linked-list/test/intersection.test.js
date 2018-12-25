@@ -1,6 +1,6 @@
-import LinkedList from './LinkedList'
-import intersection from './intersection'
-import intersectionHash from './intersectionHash'
+import LinkedList from '../src/LinkedList'
+import intersection from '../src/intersection'
+import intersectionHash from '../src/intersectionHash'
 
 describe('find intersection point of two linked lists', () => {
   test('using difference of node counts', () => {

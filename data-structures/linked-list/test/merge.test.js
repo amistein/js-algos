@@ -1,5 +1,5 @@
-import LinkedList from './LinkedList'
-import merge from './merge'
+import LinkedList from '../src/LinkedList'
+import merge from '../src/merge'
 
 describe('merge two sorted linked lists', () => {
   test('it returns one sorted linked list containing all elements', () => {

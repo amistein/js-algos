@@ -1,6 +1,6 @@
-import LinkedList from './LinkedList'
-import detectLoop from './detectLoop'
-import detectLoopFloyd from './detectLoopFloyd'
+import LinkedList from '../src/LinkedList'
+import detectLoop from '../src/detectLoop'
+import detectLoopFloyd from '../src/detectLoopFloyd'
 
 describe('detect loop in a linked list', () => {
   test('marking visited nodes - algorithm returns false if list does not contain cycle ', () => {

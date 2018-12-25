@@ -1,8 +1,8 @@
-import LinkedList from './LinkedList'
-import reverseStack from './reverseStack'
-import reverseRecursive from './reverseRecursive'
-import reverseTailRecursiveInPlace from './reverseTailRecInPlace'
-import reverseTailRecursive from './reverseTailRec'
+import LinkedList from '../src/LinkedList'
+import reverseStack from '../src/reverseStack'
+import reverseRecursive from '../src/reverseRecursive'
+import reverseTailRecursiveInPlace from '../src/reverseTailRecInPlace'
+import reverseTailRecursive from '../src/reverseTailRec'
 
 describe('reverse a linked list', () => {
   test('in place using a stack and return new head', () => {

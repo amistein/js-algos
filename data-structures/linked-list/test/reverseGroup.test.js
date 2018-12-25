@@ -1,6 +1,6 @@
-import LinkedList from './LinkedList'
-import reverseGroup from './reverseGroup'
-import reverseGroupRec from './reverseGroupRec'
+import LinkedList from '../src/LinkedList'
+import reverseGroup from '../src/reverseGroup'
+import reverseGroupRec from '../src/reverseGroupRec'
 
 describe('Reverse a linked list in groups of given size', () => {
   test('using a stack', () => {

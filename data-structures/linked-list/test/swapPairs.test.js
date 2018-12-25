@@ -1,5 +1,5 @@
-import LinkedList from './LinkedList'
-import swapPairs from './swapPairs'
+import LinkedList from '../src/LinkedList'
+import swapPairs from '../src/swapPairs'
 
 describe('swap pairs of elements in a linked list', () => {
   test('when list has even amount of elements', () => {
