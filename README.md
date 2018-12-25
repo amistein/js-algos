@@ -4,3 +4,4 @@
 
 * [Linked List](data-structures/linked-list)
 * [Binary Search Tree](data-structures/bst)
+* [Graph](data-structures/graph)
