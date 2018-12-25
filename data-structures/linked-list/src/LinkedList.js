@@ -36,13 +36,12 @@ export default class LinkedList {
   }
 
   toArray() {
-    const result = []
-    let curr = this
-    while (curr) {
-      result.push(curr.value)
-      curr = curr.next
+    function _toArray(list) {
+      if (!list) return []
+      return [list.value].concat(_toArray(list.next))
     }
-    return result
+
+    return _toArray(this)
   }
 
   static fromArray(arr) {

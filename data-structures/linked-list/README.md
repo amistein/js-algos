@@ -16,3 +16,4 @@
 * Find intersection point of two linked lists
   * [Using a hash table](src/intersectionHash.js)
   * [Using the difference of list sizes](src/intersection.js)
+* [Swap pairs of elements](src/swapPairs.js)
