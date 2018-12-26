@@ -1,9 +1,9 @@
 function reverse(list) {
-  function _reverse(list, acc) {
-    if (!list) return acc
-    const next = list.next
-    list.next = acc
-    return _reverse(next, list)
+  function _reverse(head, newList) {
+    if (!head) return newList
+    const next = head.next
+    head.next = newList
+    return _reverse(next, head)
   }
 
   return _reverse(list, null)
