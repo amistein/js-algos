@@ -20,3 +20,6 @@
 * Add two numbers represented by linked lists
   * [Least significant digit is first node of lists](src/addNumbers.js)
   * [Most significant digit is first node of lists - recursive](src/addNumbersRec.js)
+* Determine if a linked list is a palindrome
+  * [Reversing the list and comapring](src/isPalindrome)
+  * [Recursively comparing leftmost and rightmost nodes](src/isPalindromeRec.js)
