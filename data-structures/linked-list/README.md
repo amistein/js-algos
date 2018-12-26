@@ -17,3 +17,6 @@
   * [Using a hash table](src/intersectionHash.js)
   * [Using the difference of list sizes](src/intersection.js)
 * [Swap pairs of elements](src/swapPairs.js)
+* Add two numbers represented by linked lists
+  * [Least significant digit is first node of lists](src/addNumbers.js)
+  * [Most significant digit is first node of lists - recursive](src/addNumbersRec.js)

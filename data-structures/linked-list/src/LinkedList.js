@@ -33,6 +33,16 @@ export default class LinkedList {
     return new LinkedList(this.value, this.next.take(n - 1))
   }
 
+  concat(list) {
+    let curr = this
+    while (curr.next) {
+      curr = curr.next
+    }
+
+    curr.next = list
+    return this
+  }
+
   toArray() {
     function _toArray(list) {
       if (!list) return []
