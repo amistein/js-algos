@@ -5,6 +5,9 @@
   * [Recursively](src/reverseRecursive.js)
   * [In place using tail recursion](src/reverseTailRecInPlace.js)
   * [Non-mutating using tail recursion](src/reverseTailRec.js)
+* Find middle element of linked list
+  * [Two pointers one moving twice as fast as the other](src/findMiddle.js)
+  * [Recursively](src/findMiddleRec.js)
 * Reverse a linked list in groups of given size
   * [Using a stack](src/reverseGroup.js)
   * [Recursive approach](src/reverseGroupRec.js)
