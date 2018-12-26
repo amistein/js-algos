@@ -3,12 +3,12 @@ import reverse from './reverseTailRecInPlace'
 function reverseGroup(list, n) {
   if (!list) return null
 
-  const next = list.drop(n)
-  const formerHead = list
-  const group = reverse(list.take(n))
+  const group = list.take(n)
+  const formerHead = group
+  const groupReversed = reverse(group)
 
-  formerHead.next = reverseGroup(next, n)
-  return group
+  formerHead.next = reverseGroup(list.drop(n), n)
+  return groupReversed
 }
 
 export default reverseGroup

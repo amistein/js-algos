@@ -27,12 +27,10 @@ export default class LinkedList {
   }
 
   // Selects first `n` elements
-  // Mutates the linked list
   take(n) {
     if (n === 0) return null
     if (!this.next) return this
-    this.next = this.next.take(n - 1)
-    return this
+    return new LinkedList(this.value, this.next.take(n - 1))
   }
 
   toArray() {
