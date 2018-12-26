@@ -14,6 +14,7 @@
 * Detect loop in a linked list
   * [Marking visited nodes](src/detectLoop.js)
   * [Floyd’s cycle-finding algorithm](src/detectLoopFloyd.js)
+* [Remove a loop in a linked list](src/removeLoop.js)
 * Merge two sorted linked lists
   * [Recursive approach](src/merge.js)
 * Find intersection point of two linked lists
