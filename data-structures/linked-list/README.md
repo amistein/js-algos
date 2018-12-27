@@ -33,3 +33,5 @@
   * [Code](src/Queue.js)
 * Implement a stack using a linked list
   * [Code](src/Stack.js)
+* Delete node without pointer to head of list
+  * [Code](src/deleteNoHead.js)
