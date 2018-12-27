@@ -14,16 +14,22 @@
 * Detect loop in a linked list
   * [Marking visited nodes](src/detectLoop.js)
   * [Floyd’s cycle-finding algorithm](src/detectLoopFloyd.js)
-* [Remove a loop in a linked list](src/removeLoop.js)
+* Remove a loop in a linked list
+  * [Code](src/removeLoop.js)
 * Merge two sorted linked lists
   * [Recursive approach](src/merge.js)
 * Find intersection point of two linked lists
   * [Using a hash table](src/intersectionHash.js)
   * [Using the difference of list sizes](src/intersection.js)
-* [Swap pairs of elements](src/swapPairs.js)
+* Swap pairs of elements
+  * [Code](src/swapPairs.js)
 * Add two numbers represented by linked lists
   * [Least significant digit is first node of lists](src/addNumbers.js)
   * [Most significant digit is first node of lists - recursive](src/addNumbersRec.js)
 * Determine if a linked list is a palindrome
-  * [Reversing the list and comapring](src/isPalindrome)
+  * [Reversing the list and comparing](src/isPalindrome)
   * [Recursively comparing leftmost and rightmost nodes](src/isPalindromeRec.js)
+* Implement a queue using a linked list
+  * [Code](src/Queue.js)
+* Implement a stack using a linked list
+  * [Code](src/Stack.js)
