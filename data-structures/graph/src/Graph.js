@@ -1,5 +1,3 @@
-import flatten from '../../../utils/flatten'
-
 export default class Graph {
   constructor(data) {
     this.data = data
@@ -7,6 +5,7 @@ export default class Graph {
 
   depthFirst(start) {
     const data = this.data
+    const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
     
     function _depthFirst(start, visited) {
       const adjList = data[start] || []
@@ -23,6 +22,7 @@ export default class Graph {
 
   breadthFirst(start) {
     const data = this.data
+    const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
     function _breadthFirst(queue, visited) {
       if (!queue.length) return [...visited]
       const newQueue = flatten(queue.filter(e => !visited.has(e)).map(e => data[e]))

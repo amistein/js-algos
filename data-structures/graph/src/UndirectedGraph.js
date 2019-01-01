@@ -1,6 +1,5 @@
 import Graph from './Graph'
 import pairs from '../../../utils/pairs'
-import flatten from '../../../utils/flatten'
 
 export default class UndirectedGraph extends Graph {
   static fromEdgeList(arr) {
