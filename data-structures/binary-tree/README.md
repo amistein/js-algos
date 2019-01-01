@@ -9,3 +9,5 @@
   * [Code](src/bstFromPreOrder.js)
 * Construct a binary search tree from a given postorder traversal
   * [Code](src/bstFromPostOrder.js)
+* Bottom view of a binary tree
+  * [Code](src/bottomView.js)
