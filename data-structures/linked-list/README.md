@@ -5,6 +5,9 @@
   * [Recursively](src/reverseRecursive.js)
   * [In place using tail recursion](src/reverseTailRecInPlace.js)
   * [Non-mutating using tail recursion](src/reverseTailRec.js)
+* Find nth element from end of linked list
+  * [Using two pointers, one starting n nodes ahead of other](src/nthNodeFromEnd.js)
+  * [Using recursion](src/nthNodeFromEndRec.js)
 * Find middle element of linked list
   * [Two pointers one moving twice as fast as the other](src/findMiddle.js)
   * [Recursively](src/findMiddleRec.js)
@@ -30,7 +33,8 @@
   * [Reversing the list and comparing](src/isPalindrome)
   * [Recursively comparing leftmost and rightmost nodes](src/isPalindromeRec.js)
 * Implement a queue using a linked list
-  * [Code](src/Queue.js)
+  * [Using a pointer to head and tail](src/Queue.js)
+  * [Using a circular linked list](src/queueCircularlist.js)
 * Implement a stack using a linked list
   * [Code](src/Stack.js)
 * Delete node without pointer to head of list

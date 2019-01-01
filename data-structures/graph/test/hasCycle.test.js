@@ -1,5 +1,5 @@
-import DirectedGraph from './DirectedGraph'
-import hasCycle from './hasCycle'
+import DirectedGraph from '../src/DirectedGraph'
+import hasCycle from '../src/hasCycle'
 
 describe('detect whether or not graph contains a cycle', () => {
   test('returns false if graph does not contain cycle', () => {

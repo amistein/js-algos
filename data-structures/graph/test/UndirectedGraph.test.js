@@ -1,4 +1,4 @@
-import UndirectedGraph from './UndirectedGraph'
+import UndirectedGraph from '../src/UndirectedGraph'
 
 describe('UndirectedGraph', () => {
   test('depth first traversal', () => {
