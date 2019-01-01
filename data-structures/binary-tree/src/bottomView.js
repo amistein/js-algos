@@ -1,20 +1,15 @@
 function bottomView(tree) {
   const table = {}
   const byDistance = ([d1], [d2]) => d1 - d2
+  const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
+  const doesChildExist = ([node]) => Boolean(node)
+  const childrenWithDistance = ([node, distance]) => [[node.left, distance - 1], [node.right, distance + 1]].filter(doesChildExist)
+  let queue = [[tree, 0]]
 
-  function loop(queue) {
-    if (!queue.length) return
+  while (queue.length) {
     queue.forEach(([node, distance]) => table[distance] = node.value)
-
-    const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
-    const doesChildExist = ([node]) => Boolean(node)
-    const childrenWithDistance = ([node, distance]) => [[node.left, distance - 1], [node.right, distance + 1]].filter(doesChildExist)
-    const newQueue = flatten(queue.map(childrenWithDistance))
-
-    loop(newQueue)
+    queue = flatten(queue.map(childrenWithDistance))
   }
-
-  loop([[tree, 0]])
 
   return Object.entries(table).sort(byDistance).map(([_, n]) => n)
 }
