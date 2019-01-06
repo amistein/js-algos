@@ -5,19 +5,16 @@ export default class Graph {
 
   depthFirst(start) {
     const data = this.data
-    const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
-    
-    function _depthFirst(start, visited) {
-      const adjList = data[start] || []
-      const newVisited = visited.concat(adjList)
-      const children = adjList
-        .filter(e => !visited.includes(e))
-        .map(e => _depthFirst(e, newVisited))
+    const visited = new Set()
 
-      return [start].concat(flatten(children))
+    function _depthFirst(start) {
+      if (!data[start]) data[start] = []
+      visited.add(start)
+      data[start].filter(e => !visited.has(e)).forEach(e => _depthFirst(e))
     }
 
-    return _depthFirst(start, [start])
+    _depthFirst(start)
+    return [...visited]
   }
 
   breadthFirst(start) {
@@ -25,9 +22,9 @@ export default class Graph {
     const flatten = arr => arr.reduce((a, b) => a.concat(b), [])
     function _breadthFirst(queue, visited) {
       if (!queue.length) return [...visited]
-      const newQueue = flatten(queue.filter(e => !visited.has(e)).map(e => data[e]))
-
       queue.forEach(e => { visited.add(e) })
+
+      const newQueue = flatten(queue.map(e => (data[e] || []).filter(e => !visited.has(e))))
 
       return _breadthFirst(newQueue, visited)
     }
