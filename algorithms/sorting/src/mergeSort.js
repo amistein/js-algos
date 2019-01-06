@@ -12,7 +12,10 @@ function mergeSort(arr) {
     return merge(mergeSort(arr.slice(0, middle)), mergeSort(arr.slice(middle)))
 }
 
-// Same approach as above, except that `merge` is tail recursive
+
+/*************************************************************
+Same approach as above, except that `merge` is tail recursive
+**************************************************************/
 function mergeSortTailRec(arr) {
     function merge(arr1, arr2) {
         function _merge(arr1, arr2, acc) {
