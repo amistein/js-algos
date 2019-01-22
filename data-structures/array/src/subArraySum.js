@@ -1,4 +1,4 @@
-function subArraySum(arr, k) {
+function subarraySum(arr, k) {
     let start = 0
     let end = 0
     let sum = 0
@@ -15,7 +15,7 @@ function subArraySum(arr, k) {
 /*****************
 Using recursion
 ******************/
-function subArraySumRec(arr, k) {
+function subarraySumRec(arr, k) {
     function loop(start, end, sum) {
         if (sum === k) return arr.slice(start, end)
         if (sum < k) return loop(start, end + 1, sum + arr[end])
@@ -25,4 +25,4 @@ function subArraySumRec(arr, k) {
     return loop(0, 0, 0)
 }
 
-export default subArraySum
+export default subarraySum

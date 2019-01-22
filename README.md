@@ -10,3 +10,4 @@
 ## Algorithms
 
 * [Sorting](algorithms/sorting)
+* [Recursion](algorithms/recursion)
