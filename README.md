@@ -2,6 +2,7 @@
 
 ## Data Structures
 
+* [String](data-structures/string)
 * [Array](data-structures/array)
 * [Linked List](data-structures/linked-list)
 * [Binary Tree](data-structures/binary-tree)
