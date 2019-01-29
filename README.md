@@ -12,4 +12,4 @@
 
 * [Sorting](algorithms/sorting)
 * [Recursion](algorithms/recursion)
-* [Dynamic Programming](algoritms/dynamicProgramming)
+* [Dynamic Programming](algorithms/dynamicProgramming)
