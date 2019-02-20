@@ -29,7 +29,4 @@ function quickSort(arr) {
   qs(0, arr.length - 1)
 }
 
-const arr = [10,7,6,8,3,2,4]
-quickSort(arr)
-
-// arr - [ 2, 3, 4, 6, 7, 8, 10 ]
+export default quickSort
